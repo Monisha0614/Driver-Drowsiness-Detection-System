@@ -10,6 +10,12 @@ A hybrid driver drowsiness detection system that combines facial analysis with p
 - Live dashboard with automated drowsiness alerts
 - Sub-200ms detection response time
 
+## Dataset Used 
+
+- **MRL Eye Dataset** — 84,000+ images used for training and validation of the CNN eye-state classifier (preprocessing: resizing, grayscale conversion, and normalization)
+- **Physiological Simulation Data (physio_simulation_data.csv)** — used for the physiological signal component
+- **Facial Landmarks Model (shape_predictor_68_face_landmarks.dat)** — pre-trained dlib model for facial landmark detection
+
 ## Tech Stack
 
 - **Language:** Python
