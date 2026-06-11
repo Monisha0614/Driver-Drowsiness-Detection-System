@@ -1,38 +1,39 @@
-# Driver-Drowsiness-Detection-System
+# Driver Drowsiness Detection System
+
 A hybrid driver drowsiness detection system that combines facial analysis with physiological signals to accurately identify drowsy states and reduce false alerts. The system uses a CNN-based model for real-time eye-state classification and pairs it with a live dashboard that triggers automated alerts, helping prevent accidents caused by driver fatigue.
 
-**#Features**
+## Features
 
-Real-time eye-state classification using a CNN model
-Hybrid detection combining facial cues and physiological signals to reduce false positives
-96% validation accuracy on eye-state classification
-Live dashboard with automated drowsiness alerts
-Sub-200ms detection response time
+- Real-time eye-state classification using a CNN model
+- Hybrid detection combining facial cues and physiological signals to reduce false positives
+- 96% validation accuracy on eye-state classification
+- Live dashboard with automated drowsiness alerts
+- Sub-200ms detection response time
 
-**Tech Stack**
+## Tech Stack
 
-Language: Python
-Deep Learning: PyTorch
-Computer Vision: OpenCV
-Machine Learning: Scikit-learn
-Model: Convolutional Neural Network (CNN)
+- **Language:** Python
+- **Deep Learning:** PyTorch
+- **Computer Vision:** OpenCV
+- **Machine Learning:** Scikit-learn
+- **Model:** Convolutional Neural Network (CNN)
 
+## How It Works
 
-**How It Works**
+1. Captures live video feed from a camera
+2. Detects and processes the driver's face and eyes
+3. Classifies eye state (open/closed) using the trained CNN
+4. Combines results with physiological signal data for more reliable predictions
+5. Triggers an alert on the dashboard if drowsiness is detected
 
-Captures live video feed from a camera
-Detects and processes the driver's face and eyes
-Classifies eye state (open/closed) using the trained CNN
-Combines results with physiological signal data for more reliable predictions
-Triggers an alert on the dashboard if drowsiness is detected
+## Future Improvements
 
-**Future Improvements**
+- Mobile/embedded deployment for in-vehicle use
+- Expanded physiological sensor integration
+- Improved low-light detection accuracy
 
-Mobile/embedded deployment for in-vehicle use
-Expanded physiological sensor integration
-Improved low-light detection accuracy
+## Author
 
+**Monisha Mani**
 
-**Author**
-Monisha Mani
-github.com/Monisha0614 | linkedin.com/in/monisha0614
+[GitHub](https://github.com/Monisha0614) | [LinkedIn](https://linkedin.com/in/monisha0614)
