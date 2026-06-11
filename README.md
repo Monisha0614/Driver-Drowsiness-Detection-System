@@ -10,6 +10,7 @@ Live dashboard with automated drowsiness alerts
 Sub-200ms detection response time
 
 **Tech Stack**
+
 Language: Python
 Deep Learning: PyTorch
 Computer Vision: OpenCV
@@ -18,6 +19,7 @@ Model: Convolutional Neural Network (CNN)
 
 
 **How It Works**
+
 Captures live video feed from a camera
 Detects and processes the driver's face and eyes
 Classifies eye state (open/closed) using the trained CNN
@@ -25,6 +27,7 @@ Combines results with physiological signal data for more reliable predictions
 Triggers an alert on the dashboard if drowsiness is detected
 
 **Future Improvements**
+
 Mobile/embedded deployment for in-vehicle use
 Expanded physiological sensor integration
 Improved low-light detection accuracy
